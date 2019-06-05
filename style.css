@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: bentham;
+  /* background: url(bb.jpg) no-repeat; */
+  /* background: linear-gradient(right to,(#e66465, #9198e5 ); */
+
+  background-size: 100%;
+  flex-wrap: wrap;
+
+  }
+  .box{
+    width: 24%;
+    height: 44%;
+    padding: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(#e66465, #9198e5);
+    /* background: linear-gradient(to right, darkblue, , aqua);
+     */
+     
+
+    flex-wrap: wrap;
+
+
+    text-align: center;
+  }
+  .box h1{
+    color: black;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    flex-wrap: wrap;
+  }
+  
+  .box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: aqua;
+    background-color: white;
+    color: black;
+    font-family: bentham;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+.box input[type="submit"]{
+  border: 0;
+  font-family: bentham;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  curser: pointer;
+  flex-wrap: wrap;
+}
+.box input[type="submit"]:hover{
+  background: #2ecc71;
+  flex-wrap: wrap;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 14px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 19%;
+  flex-wrap: wrap;
+  transition: 0.75s;
+
+}
+
+.registerbtn:hover {
+  opacity: 1;
+  flex-wrap: wrap;
+  transition: 0.75s;
+  margin: 10px;
+  padding: 13px 27px;
+}
+.boxd{
+  border-radius: 9%;
+  transition: 1s;
+  
+}
+.boxd:hover{
+  border-radius: 9%;
+  box-shadow: 5px 5px 50px 10px;
+  transition: 1s;
+
+  
+}
+.coll{
+  background: linear-gradient(right to, #e66465, #9198e5 ) ;
+  /* background-color: lightgray; */
+}
+
+.logo{
+  width: 43px;
+  margin-left: 22%;
+  /* padding-right: 76%; */
+  float: left;
+  margin-top: -8%
+}
+.h11{
+margin-top: 2%;
+padding-right: 16%;
+margin-left: 34%;
+padding-right: 30%;
+}
